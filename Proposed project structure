@@ -1,0 +1,18 @@
+book-review-backend/
+├─ package.json
+├─ .env
+├─ server.js
+├─ src/
+│  ├─ models/
+│  │  ├─ User.js
+│  │  └─ Review.js
+│  ├─ routes/
+│  │  ├─ auth.js
+│  │  └─ reviews.js
+│  ├─ middleware/
+│  │  └─ auth.js
+│  └─ utils/
+│     └─ tokens.js
+└─ tests/
+   ├─ auth.test.js
+   └─ reviews.test.js
